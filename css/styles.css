@@ -18,6 +18,12 @@ h1 small {
   font-weight: 100;
   letter-spacing: 0.07em;
 }
+a {
+  color: #fbb900;
+  font-weight: 200;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
 .wrapper {
   margin: 3em 1em;
   text-align: center;
