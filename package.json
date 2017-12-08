@@ -4,9 +4,17 @@
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:css": "stylelint src/**/*.css",
+    "lint:js": "standard",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Eloy <me@eloy.codes>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "stylelint": "^8.3.1",
+    "stylelint-config-standard": "^18.0.0"
+  }
 }
