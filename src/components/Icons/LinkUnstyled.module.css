@@ -1,0 +1,7 @@
+.unstyledLink {
+  display: inline-block;
+  background-image: none;
+  text-decoration: none;
+  height: 24px;
+  width: 24px;
+}
