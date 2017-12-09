@@ -2,8 +2,10 @@
   "name": "eloy-website",
   "version": "0.1.0",
   "description": "My personal website",
-  "main": "index.js",
+  "main": "n/a",
   "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop --host localhost",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:css": "stylelint src/**/*.css",
     "lint:js": "standard",
@@ -16,5 +18,21 @@
     "standard": "^10.0.3",
     "stylelint": "^8.3.1",
     "stylelint-config-standard": "^18.0.0"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.128",
+    "gatsby-link": "^1.6.30",
+    "gatsby-plugin-favicon": "^2.1.1",
+    "gatsby-plugin-react-helmet": "^2.0.2",
+    "gatsby-plugin-segment-js": "^1.1.0",
+    "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-source-filesystem": "^1.5.9",
+    "react-helmet": "^5.2.0",
+    "typography-theme-fairy-gates": "^0.15.11"
+  },
+  "standard": {
+    "globals": [
+      "graphql"
+    ]
   }
 }
