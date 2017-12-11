@@ -15,6 +15,9 @@ const IndexPage = () => (
       <meta
         name='description'
         content='Doing web-stuff since 1999. Nowadays the trendy term is Full-stack developer. In the past I have been a web developer, web designer, web information architect and a lot of other things.' />
+      <meta name='viewport' content='width=device-width, initial-scale=1' />
+      <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+      <link rel='canonical' href='https://eloy.website/' />
     </Helmet>
     <p>
       <a href='https://en.wikipedia.org/wiki/Web_development' target='_blank'>
